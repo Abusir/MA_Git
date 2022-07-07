@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="rom_1024x10b_synth_1" LaunchDir="E:/Artix7/A7_Confer_Live/Demo/21_hs_dual_da/hs_dual_da.runs/rom_1024x10b_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/Artix7/A7_Confer_Live/Demo/21_hs_dual_da/hs_dual_da.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="rom_1024x10b_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="E:/Artix7/A7_Confer_Live/Demo/21_hs_dual_da/hs_dual_da.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="rom_1024x10b_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

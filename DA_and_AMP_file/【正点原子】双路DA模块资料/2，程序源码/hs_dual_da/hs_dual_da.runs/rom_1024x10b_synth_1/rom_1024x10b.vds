@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Aug  6 17:05:47 2020
+# Process ID: 17472
+# Current directory: E:/Artix7/A7_Confer_Live/Demo/21_hs_dual_da/hs_dual_da.runs/rom_1024x10b_synth_1
+# Command line: vivado.exe -log rom_1024x10b.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rom_1024x10b.tcl
+# Log file: E:/Artix7/A7_Confer_Live/Demo/21_hs_dual_da/hs_dual_da.runs/rom_1024x10b_synth_1/rom_1024x10b.vds
+# Journal file: E:/Artix7/A7_Confer_Live/Demo/21_hs_dual_da/hs_dual_da.runs/rom_1024x10b_synth_1\vivado.jou
+#-----------------------------------------------------------
+source rom_1024x10b.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP rom_1024x10b, cache-ID = 34c92cdcddee7ec2.
+INFO: [Common 17-206] Exiting Vivado at Thu Aug  6 17:05:52 2020...
